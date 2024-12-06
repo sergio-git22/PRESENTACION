@@ -1,0 +1,42 @@
+body {
+    background-color:rgb(143, 98, 9);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    border: 3px solid white;
+    display: grid;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 20px;
+    max-width: 25%;;
+}
+
+.cabecera {
+    background-color: black;
+    color: white;
+}
+
+#foto-perfil {
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 100px;
+}
+
+.enlaces {
+    background-color: white;
+    font-size: small;
+}
+
+.enlaces img {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.enlaces a {
+    color: black;
+    cursor: pointer;
+}
