@@ -1,5 +1,5 @@
 body {
-    background-color:rgb(143, 98, 9);
+    background-color:rgb(150, 113, 40);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -7,10 +7,9 @@ body {
     border: 3px solid white;
     display: grid;
     text-align: center;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin: 0 auto;
     margin-top: 20px;
-    max-width: 25%;;
+    max-width: 25%;
 }
 
 .cabecera {
@@ -39,4 +38,14 @@ body {
 .enlaces a {
     color: black;
     cursor: pointer;
+}
+
+.caja-enlaces {
+    border: 3px solid darkred;
+    border-radius: 3px;
+    padding: 1px;
+    margin-top: 5px;
+    margin: 0 auto;
+    max-width: 150px;
+    text-align: center;
 }
